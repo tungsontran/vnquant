@@ -2,7 +2,7 @@
 from typing import Union, Optional
 import requests
 from datetime import datetime
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)

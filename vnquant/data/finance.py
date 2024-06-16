@@ -9,7 +9,7 @@ import requests
 import time
 import numpy as np
 from datetime import datetime
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 class FinanceLoader():
